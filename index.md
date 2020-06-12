@@ -11,6 +11,6 @@ Play with a random remote player, or invite an already met player, or invite a f
 Play with English, French, German, Spanish, Catalan and Italian dictionaries.  
 See word definitions via Wiktionary (english and french only).  
 
-![Screenshot](/assets/images/screenshot.png) <a href='https://play.google.com/store/apps/details?id=fr.raubel.mwg.lite&hl=en&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+![Screenshot]({{site.baseurl}}/assets/images/screenshot.png) <a href='https://play.google.com/store/apps/details?id=fr.raubel.mwg.lite&hl=en&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
     <img height="100" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
 </a>
