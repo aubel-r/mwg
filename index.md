@@ -2,6 +2,7 @@
 layout: page
 title: My Word Game
 icon: fa-home
+url: /
 order: 1
 ---
 
