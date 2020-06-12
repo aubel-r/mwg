@@ -34,22 +34,9 @@
         {%- endif -%}
       {%- endfor -%}
     {%- endunless -%}
-    {%- assign _sections = include.section_items | where_exp: "section", "section.hide != true" -%}
-    {%- if _pages[0] and _sections[0] -%}<hr>{%- endif -%}
-    {%- unless _sections == null -%}
-      {%- for _sect in _sections -%}
-        {%- assign _title = _sect.title | default: _sect.layout | default: 'Untitled' -%}
-        {%- assign _slug = _title | slugify -%}
-        {%- assign _icon = _sect.icon | default: 'fa-file' -%}
-        {%- if _sect.icon-style == 'regular' -%}
-          {%- assign _class = 'icon-r' -%}
-        {%- elsif _sect.icon-style == 'brands' -%}
-          {%- assign _class = 'icon-b' -%}
-        {%- else -%}
-          {%- assign _class = 'icon' -%}
-        {%- endif -%}
-        <li><a href="#{{- _slug -}}" id="{{- _slug -}}-link" class="scrolly"><span class="{{ _class }} {{ _icon }}">{{- _title -}}</span></a></li>
-      {%- endfor -%}
-    {%- endunless -%}
   </ul>
 </nav>
+
+<a href='https://play.google.com/store/apps/details?id=fr.raubel.mwg.lite&hl=en&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+  <img height="100" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+</a>

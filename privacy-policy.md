@@ -2,7 +2,6 @@
 layout: page
 title: Privacy Policy
 icon: fa-user-secret
-url: privacy-policy
 permalink: privacy-policy
 order: 2
 ---
